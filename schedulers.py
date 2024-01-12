@@ -1,6 +1,6 @@
 import torch
 from opts import parse_args
-from models.network import E2E_SCI
+from models.joint_optimization import DeepOpticsSCI
 
 class WarmupStepLR(torch.optim.lr_scheduler.StepLR):
     def __init__(self,  warmup_steps, optimizer, step_size, gamma=0.1, last_epoch=-1):
@@ -32,14 +32,6 @@ class WarmupStepLR(torch.optim.lr_scheduler.StepLR):
         
 if __name__ == '__main__':
     args = parse_args()
-    network = E2E_SCI(args).to(args.device)
+    network = DeepOpticsSCI(args).to(args.device)
     optimizer = torch.optim.Adam([{'params': network.encoder.parameters(), 'lr': 0.05},
                         {'params': network.decoder.parameters()}], lr=0.01)
-    # optimizer = torch.optim.Adam([torch.ones(3,3)], lr=0.16)
-    # print([group.keys() for group in optimizer.param_groups])
-    print(optimizer.state_dict()['param_groups'][0]['lr'])
-    print(optimizer.state_dict()['param_groups'][1]['lr'])
-    # scheduler = WarmupStepLR(10, optimizer, 10, gamma=0.9)
-    # for i in range(50):
-    #     print(i, ": ", scheduler.get_last_lr()[0], '\t', i, ": ", scheduler.get_last_lr()[1])
-    #     scheduler.step()
