@@ -1,0 +1,97 @@
+absl-py==1.4.0
+addict==2.4.0
+albumentations==1.3.1
+-e git+https://github.com/dasongli1/Shift-Net@450a4f246dedccd306aa0bc02d615d797874e1ce#egg=basicsr
+brotlipy==0.7.0
+cachetools==5.3.1
+certifi @ file:///croot/certifi_1690232220950/work/certifi
+cffi @ file:///work/ci_py311/cffi_1676822533496/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+colour==0.1.5
+colour-demosaicing==0.2.4
+colour-science==0.4.3
+contourpy==1.1.1
+cryptography @ file:///croot/cryptography_1689373676338/work
+cycler==0.12.1
+DCNv3==1.0
+decorator==4.4.2
+einops==0.6.1
+filelock @ file:///work/ci_py311/filelock_1676823024085/work
+fonttools==4.43.1
+fsspec==2023.6.0
+fvcore==0.1.5.post20221221
+gmpy2 @ file:///work/ci_py311/gmpy2_1676839849213/work
+google-auth==2.22.0
+google-auth-oauthlib==1.0.0
+grpcio==1.56.2
+h5py==3.10.0
+huggingface-hub==0.16.4
+idna @ file:///work/ci_py311/idna_1676822698822/work
+imageio==2.31.1
+imageio-ffmpeg==0.4.9
+iopath==0.1.10
+Jinja2 @ file:///work/ci_py311/jinja2_1676823587943/work
+joblib==1.3.2
+kiwisolver==1.4.5
+lazy_loader==0.3
+lmdb==1.4.1
+Markdown==3.4.4
+MarkupSafe @ file:///work/ci_py311/markupsafe_1676823507015/work
+matplotlib==3.8.0
+mkl-fft==1.3.6
+mkl-random @ file:///work/mkl/mkl_random_1682950433854/work
+mkl-service==2.4.0
+moviepy==1.0.3
+mpmath @ file:///croot/mpmath_1690848262763/work
+networkx @ file:///croot/networkx_1690561992265/work
+numpy @ file:///croot/numpy_and_numpy_base_1687466208449/work
+oauthlib==3.2.2
+opencv-python==4.8.0.74
+opencv-python-headless==4.8.0.76
+packaging==23.1
+pandas==2.1.1
+Pillow==9.4.0
+portalocker==2.8.2
+proglog==0.1.10
+protobuf==4.24.0
+psutil==5.9.6
+py-cpuinfo==9.0.0
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.1.1
+PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+python-dateutil==2.8.2
+pytz==2023.3.post1
+PyWavelets==1.4.1
+PyYAML==6.0.1
+qudida==0.0.4
+requests @ file:///croot/requests_1690400202158/work
+requests-oauthlib==1.3.1
+rsa==4.9
+safetensors==0.3.2
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.1
+seaborn==0.13.0
+six==1.16.0
+sympy @ file:///work/ci_py311_2/sympy_1679339311852/work
+tabulate==0.9.0
+tensorboard==2.14.0
+tensorboard-data-server==0.7.1
+termcolor==2.3.0
+thop==0.1.1.post2209072238
+threadpoolctl==3.2.0
+tifffile==2023.7.18
+timm==0.9.5
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+tqdm==4.66.1
+triton==2.0.0
+typing_extensions @ file:///croot/typing_extensions_1690297465030/work
+tzdata==2023.3
+urllib3 @ file:///croot/urllib3_1686163155763/work
+Werkzeug==2.3.6
+yacs==0.1.8
