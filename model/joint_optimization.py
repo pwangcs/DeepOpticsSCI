@@ -1,7 +1,7 @@
 import torch 
 from torch import nn 
-from models.physical_layer import encoder
-from models.digital_layer import STFormer, ConvFormer, Unet, RevSCI, Res2former
+from model.physical_layer import encoder
+from model.digital_layer import STFormer, ConvFormer, Unet, RevSCI, Res2former
 
 class DeepOpticsSCI(nn.Module):
 
