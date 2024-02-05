@@ -3,7 +3,7 @@ import torch
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--epochs', default=200, type=int)
+    parser.add_argument('--epochs', default=100, type=int)
     parser.add_argument('--pretrained_model_path', default=None, type=str, help='pre-trained weight path for fine-tuning')
     parser.add_argument("--test_weight_path", default='weight/res2former_4bit_structural_mask.pth', type=str,  help='pre-trained weight path for testing')
     parser.add_argument('--batch_size', default=16, type=int)
